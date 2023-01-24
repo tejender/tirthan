@@ -7,10 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="{% static 'styles/main.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/nav.css' %}">
+
 </head>
 <body>
-    {% block content %}
-    
-    {% endblock content %}
-</body>
+    <div class="container">
+
+        {% include 'nav.html' %}
+        
+        {% block content %}
+        
+        {% endblock content %}
+    </div>
+    <script src="{% static 'js/nav.js' %}"></script>
+    </body>
 </html>
