@@ -1,8 +1,83 @@
 {% extends 'main.html' %}
+{% load static %}
+{% block css %}
+    <link rel="stylesheet" href="{% static 'styles/slider.css' %}">
+{% endblock css %}
 
 {% block content %}
 
-<h1>
-    hello
-</h1>
+
+<div class="slider">
+    <div class="slide current">
+      {% comment %} <div class="content">
+        <h1>Slide One</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit hic
+          maxime, voluptatibus labore doloremque vero!
+        </p>
+      </div> {% endcomment %}
+    </div>
+    <div class="slide">
+     
+    </div>
+    <div class="slide">
+      
+    </div>
+    <div class="slide">
+      
+    </div>
+    <div class="slide">
+      
+    </div>
+    <div class="slide">
+      
+    </div>
+  </div>
+  <div class="buttons">
+    <button id="prev"><i class="fas fa-arrow-left"></i></button>
+    <button id="next"><i class="fas fa-arrow-right"></i></button>
+  </div>   
+  
+  <section>
+    <div class="section__title">
+        <h2>
+            About our resort
+        </h2>
+</div>
+    <div class="info__section">
+        
+        <div class="info__section__content content">
+            <p>
+                Nestled in the tranquil Tirthan Valley, our resort offers the 
+                perfect blend of natural beauty and luxury. Surrounded by lush
+                 green forests and situated alongside the sparkling Tirthan River, 
+                 our resort is the ultimate destination for those looking to escape 
+                 the hustle and bustle of city life.<br>
+
+                    {% comment %} Our rooms and suites are tastefully designed with comfort
+                     and relaxation in mind, featuring large windows that offer 
+                     stunning views of the valley.  {% endcomment %}
+
+{% comment %} Each room is equipped with modern amenities, including air conditioning, flat-screen TVs, and complimentary Wi-Fi.
+
+For those looking to indulge in some outdoor activities, we offer a wide range of options, from fishing and river rafting in the Tirthan River to hiking and bird watching in the surrounding forests. Our on-site spa offers a variety of treatments to help you relax and rejuvenate, while our fitness center is the perfect place to stay active during your stay.
+
+Our resort also features a variety of dining options, including a fine-dining restaurant that serves delicious local and international cuisine. Our open-air terrace restaurant offers the perfect place to enjoy a meal while taking in the stunning views of the Tirthan Valley.
+
+In addition to our recreational activities and dining options, our resort also serves as the perfect venue for special events, including weddings and corporate retreats. Our team of dedicated professionals will work closely with you to ensure that your event is a success.
+
+Come and experience the beauty and tranquility of the Tirthan Valley at our resort. We look forward to welcoming you soon! {% endcomment %}
+            </p>
+           <h4 class="know-more">
+            Know more
+           </h4>
+        </div>
+        <div class="info__section__img">
+            <img src="{% static 'images/cottage.jpeg' %}" alt="image">
+        </div>
+    </div>
+  </section>
+
+
+
 {% endblock content %}

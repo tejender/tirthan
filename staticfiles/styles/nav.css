@@ -6,6 +6,7 @@
     padding: 0 5%;
     flex: 0 0 80px;
     border-bottom: 2px solid #cecece;
+    background-color: white;
   }
   
   .mainHeader h1 {
