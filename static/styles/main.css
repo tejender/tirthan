@@ -93,6 +93,44 @@ section{
     width: 100%;
     border-radius: 6px;
   }
+
+  .amenitiies__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .amenity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 20px;
+  }
+
+  .amenitiies__section .amenity__icon{
+    font-size: 60px;
+    color:#849fc5;
+  }
+
+  .amenity__info .title{
+    color:#0E2A4E;
+    font-family :"GlacialIndifference-Regular";
+    font-size:22px;
+    line-height:21px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    word-spacing:0px;
+    margin:0px 0px 15px;
+    padding:0px;
+  }
+.amenity__info p{
+  font-family:  "GlacialIndifference-Regular";
+  color:#8A8B96;
+  font-size:18px;
+}
+ 
 }
 
 
