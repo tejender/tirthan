@@ -1,0 +1,145 @@
+
+@media (max-width:500px){
+
+    .section__title{
+        letter-spacing: 0px;
+    }
+    .more-description{
+      display: none;
+    }
+  
+    
+    .info__section{
+      display: flex;
+      flex-direction: column;
+    }
+    .info__section__content{
+    
+      width: 100%;
+      /* background: red; */
+    }
+    
+    .info__section__img{
+      width: 100%;
+    }
+  
+    .info__section__img img{
+      width: 100%;
+    }
+  
+    .accomodation__section__rooms{
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .room-container{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .single-room{   
+  
+      position: relative;
+      width: 96%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      /* background-color: #e3f1ee; */
+      border-radius: 6px;
+     
+    }
+    .room__info{
+      width: 96%;
+      display: flex;
+      flex-direction: column;
+    
+    }
+   
+    
+  
+    .single-room img{
+      width: 100%;
+      border-radius: 6px;
+     
+    }
+  
+    .amenitiies__section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+    .amenity{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      gap: 5%;
+    }
+  
+    .amenitiies__section .amenity__icon{
+      display: flex;
+      justify-content: center;
+      font-size: 60px;
+      color:#849fc5;
+      width: 25%;
+      /* background-color: red; */
+    }
+  
+      .amenity__info{
+        width: 70%;
+        /* background-color: aqua; */
+      }
+      .amenity__info p{
+        font-size: 10px;
+      }
+    .amenity__info .title{
+      font-size: 20px;
+      color:#0E2A4E;
+      font-family :"GlacialIndifference-Regular";
+      line-height:21px;
+      vertical-align:baseline;
+      letter-spacing: 2px;
+      word-spacing:0px;
+      margin:0px 0px 15px;
+      padding:0px;
+     
+      
+    }
+    .amenity__info p{
+      font-family:  "GlacialIndifference-Regular";
+      color:#8A8B96;
+      font-size:16px;
+      line-height:30px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    word-spacing:0px;
+    margin:0px 0px 15px;
+    padding:0px;
+  
+    }
+    .footer__social{
+       
+        background-color: #344157;
+    }
+
+    .section__restaurant .section__restaurant__tagline{
+
+        font-weight:600;
+        font-size: 20px;
+        width: 100%;
+        padding-left: 10px;
+    }
+  
+}/* media query ended */
+  

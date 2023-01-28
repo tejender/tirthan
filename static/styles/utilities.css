@@ -1,0 +1,14 @@
+.lato{
+    font-family: 'lato',serif;
+}
+
+.letter-1{
+    letter-spacing: 1px;
+}
+.letter-2{
+    letter-spacing: 2px;
+}
+
+.line-6{
+    line-height: 24px;
+}
