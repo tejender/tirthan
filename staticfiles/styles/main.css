@@ -55,14 +55,18 @@ section{
   }
 
   .accomodation__section__rooms{
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
   }
 
   .single-room{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
     position: relative;
     width: 96%;
     display: flex;
@@ -70,7 +74,7 @@ section{
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    background-color: #e3f1ee;
+    /* background-color: #e3f1ee; */
     border-radius: 6px;
    
   }
@@ -82,16 +86,52 @@ section{
   }
  
   .room__info p{
-  
-    font-size: 18px;
-    /* background-color: yellow; */
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 5px;
+    margin-top: 5px;
   }
+  .room__info__summary, .room__info__price{
+  
+    font-size: 18px;
+    font-weight:900;
+    font-size: 1.3rem;
+    font-family: 'lato';
+    color:#db3c07;
+  
+    /* background-color: yellow; */
+   
+  }
+  .room__info__price{
+  
+    font-size: 15px;
+    font-weight:900;
+    font-size: 1.3rem;
+    font-family: 'lato';
+    color:#034926;
+  
+    /* background-color: yellow; */
+   
+  }
+  .room__info__complex-detail{
+    font-family: 'lato';
+    font-weight:900;
+    font-size: 1.2rem;
+    color: #5c800b;
+  }
+  .room__info__description{
+    /* font-family: 'monospace'; */
+    font-size: 1rem ;
+    color: #73756e;
+    letter-spacing: 1px;
+    line-height: 2rem;
+  }
+
+
   .single-room img{
     width: 100%;
     border-radius: 6px;
+   
   }
 
   .amenitiies__section{
@@ -275,4 +315,12 @@ section{
 .know-more:hover {
   background-position: 0;
   color: black;
+}
+
+.room-title > h3{
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  font-family:'lato' ;
+
 }
