@@ -91,11 +91,11 @@ section{
     border-radius: 5px;
     margin-top: 5px;
   }
-  .room__info__summary, .room__info__price{
+  .room__info__summary{
   
     font-size: 18px;
     font-weight:900;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: 'lato';
     color:#db3c07;
   
@@ -106,7 +106,7 @@ section{
   
     font-size: 15px;
     font-weight:900;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-family: 'lato';
     color:#034926;
   
@@ -116,7 +116,7 @@ section{
   .room__info__complex-detail{
     font-family: 'lato';
     font-weight:900;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #5c800b;
   }
   .room__info__description{
