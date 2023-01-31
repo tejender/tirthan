@@ -410,28 +410,80 @@ footer{
 }
 
 /* rooms page */
+.image-grid-container{
+  padding-top: 20px;
+  width: 100%;
+  height: auto;
+  display: grid;    
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,1fr);
+  /* background-color: red; */
+  row-gap: 10px;
+  column-gap: 10px;
+  margin-bottom: 50px;
+} 
+
+.image-grid-container > .item > img{
+  /* width: 130px; */
+  /* border-radius: 10px; */
+  height: 100%;
+  width: 100%;
+}
+
+.item{
+  /* height: 122px;
+  width: 122px; */
+  background-color: aqua;
+  overflow: hidden;
+  background-color: red;
+}
+
+.item-1{
+  grid-column-start: 1;
+  grid-column-end: 3; 
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.item:nth-child(1){
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.item:nth-child(3),.item:nth-child(5){
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+
   .rooms-detail-container{
-    background-color: red;
+    /* background-color: red; */
     width: 100%;
-    height: 400px;
+    height: auto;
     display: flex;
-    gap: 2%;
+    gap: 3%;
     justify-content: center;
+    margin-bottom: 30px;
   }
 
   .rooms-detail-container__left{
-    width: 65%;
-    background-color: aqua;
-    height: 100%;
+    width: 60%;
+    /* background-color: aqua; */
+    height: auto;
   }
 
   .rooms-detail-container__right{
     width: 33%;
-    background-color: aqua;
-    height: 100%;
+    /* background-color: aqua; */
+    height: auto;
   }
 
-  .room-description h3{
+  .booking-form{
+    padding-bottom: 20px;
+    border-top: 2px solid rgb(135, 235, 5);
+    border-bottom: 2px solid rgb(135, 235, 5);
+    border-radius: 2%;
+  }
+  .room-description h3,.booking-form__title{
     font-family: 'lato',serif;
     font-size: 2rem;
     letter-spacing: 3px;
@@ -444,6 +496,49 @@ footer{
     word-spacing: 2px;
     color: #413939;
   }
+
+  .sleeping-arrangements{
+    height: auto;    
+    width: 100%;    
+  }
+
+  .sleeping-arrangements h4,.room-view h4{
+    font-size: 1.3rem;
+    font-family: 'lato',serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+  }
+
+  .sleeping-arrangements__images,.room-view__images{
+    display: flex;
+    gap: 2%;
+
+  }
+
+  .sleeping-arrangements__images img, .room-view__images img{
+    width: 32%;
+    border-radius:2px;
+
+  }
+
+  .quick-enquiry{
+    margin-top: 20px;
+  }
+
+  .quick-enquiry p{
+    color: #5d6066;
+    font-size: .9rem;
+  }
+
+  .quick-enquiry__addresses i{
+    font-style: normal;
+  }
+  .quick-enquiry__addresses{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
 /* room page ends */
 
 

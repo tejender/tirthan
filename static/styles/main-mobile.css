@@ -140,6 +140,38 @@
         width: 100%;
         padding-left: 10px;
     }
+
+
+    /* rooms */
+    .image-grid-container{
+    
+      margin-bottom: 20px;
+   } 
+    .rooms-detail-container{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+     
+    }
+
+    .rooms-detail-container__left{
+      width: 100%;
+      /* background-color: aqua; */
+    }
+  
+    .rooms-detail-container__right{
+      width: 100%;
+      /* background-color: aqua; */
+    }
+
+    .room-description h3,.booking-form__title{
+      font-family: 'lato',serif;
+      /* background-color: red; */
+      
+      font-size: 1.8rem;
+      letter-spacing: 3px;
+    }
+    /* room end */
   
 }/* media query ended */
   

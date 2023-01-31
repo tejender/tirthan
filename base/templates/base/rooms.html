@@ -2,6 +2,7 @@
 {% load static %}
 {% block css %}
 <link rel="stylesheet" href="{% static 'styles/rooms.css' %}">
+<link rel="stylesheet" href="{% static 'styles/booking_form.css' %}">
 {% endblock css %}
     
 {% block content %}
@@ -60,10 +61,72 @@
                            outside to soak in the breathtaking views. We promise that 
                         your stay at Jalori Complex will be an experience to remember.
                     </p>
+                   
+                </div>
+    
+                <div class="sleeping-arrangements">
+                    <h4>
+                        Where you will sleep ?
+                    </h4>
+                    <div class="sleeping-arrangements__images">
+                       <img src="https://cdn.pixabay.com/photo/2021/08/07/10/53/cottage-6528340__340.jpg" alt="">
+                       <img src="https://cdn.pixabay.com/photo/2017/04/12/18/59/log-home-2225414__340.jpg" alt="">
+                       <img src="https://cdn.pixabay.com/photo/2017/11/24/08/33/bedroom-2974355__340.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="room-view">
+                    <h4>
+                        View from room ?
+                    </h4>
+                    <div class="room-view__images">
+                       <img src="https://cdn.pixabay.com/photo/2018/02/24/08/02/rustic-look-3177468__340.jpg" alt="">
+                       <img src="https://cdn.pixabay.com/photo/2017/02/15/08/00/fantastic-2067845__340.jpg  " alt="">
+                       <img src="https://cdn.pixabay.com/photo/2013/10/09/02/27/lake-192990__340.jpg" alt="">
+                    </div>
                 </div>
 
             </div>
             <div class="rooms-detail-container__right">
+                <div class="booking-form">
+                    {% include './booking_form.html' %}
+                </div>
+
+                <div class="quick-enquiry">
+                    <h3>
+                        Quic Enuqiry
+                    </h3>
+                    <p>
+                        Contact us on following numbers / social handles for fast response.
+                        we usually respond within 5 minutes.
+                    </p>
+
+                    <div class="quick-enquiry__addresses">
+                        <div class="whatsapp-address">
+
+                            <i class=" fa fa-brands fa-whatsapp"></i>
+                            <i class="description"> +91 94599 95498</i>
+                        </div>
+                        <div class="contact-address">
+
+                            <i class="fa fa-solid fa-mobile-screen-button"></i>
+                            <i class="description"> +91 94599 95498</i>
+                        </div>
+                    </div>
+
+                    <div class="quick-enquiry__addresses">
+
+                        <div class="instagram-address">
+                            <i class="fa fa-brands fa-instagram"></i>
+                            <i class="description"> Instagram</i>
+                        </div>
+                        <div class="google-business-address">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <i class="description"> Google Business</i>
+                        </div>
+
+                    </div>
+                </div>
                 
             </div>
           </div>
