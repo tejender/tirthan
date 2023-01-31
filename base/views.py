@@ -4,4 +4,9 @@ from django.shortcuts import render
 
 
 def Home(request):
-    return render(request, 'base/home.html')
+    active_page='rooms';
+    context={active_page:active_page}
+    return render(request, 'base/home.html',context)
+
+def Rooms(request):
+    return render(request,'base/rooms.html')

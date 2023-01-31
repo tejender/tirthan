@@ -80,11 +80,16 @@ section{
 }
 
 .room-container{
+  background: rgb(2,0,36);
+background: linear-gradient(71deg, rgba(2,0,36,1) 0%, rgba(101,249,0,1) 0%, rgba(0,212,255,1) 1%, rgba(58,233,109,1) 65%);
+  border-radius: 6px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 10px;
   width: 30%;
   gap: 20px;
+
 }
 
 
@@ -320,8 +325,13 @@ footer{
 
 
 .btn {
-  box-sizing: border-box;
+  box-sizing: border-box;  
+  display: flex;
+  justify-content: center;
   appearance: none;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: transparent;
   border: 2px solid red;
   border-radius: 0.6em;
@@ -332,8 +342,10 @@ footer{
   font-size: 1rem;
   font-weight: 400;
   line-height: 1;
-  margin: 20px;
-  padding: 1.2em 2.8em;
+  /* margin: 20px; */
+  padding:  1em 0 1em 0 ;
+  margin-bottom: 16px;
+  margin-top: 16px;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
@@ -343,10 +355,11 @@ footer{
 .btn:hover, .btn:focus {
   color: #fff;
   outline: 0;
+  border-color: yellow;
 }
 
 .know-more {
-  border-color: rgb(255, 255, 0);
+  border-color: #27679b;
   color: rgb(37, 102, 107);
   background-image: linear-gradient(45deg, yellow 50%, transparent 50%);
   background-position: 100%;
@@ -395,3 +408,42 @@ footer{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* rooms page */
+  .rooms-detail-container{
+    background-color: red;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+  }
+
+  .rooms-detail-container__left{
+    width: 65%;
+    background-color: aqua;
+    height: 100%;
+  }
+
+  .rooms-detail-container__right{
+    width: 33%;
+    background-color: aqua;
+    height: 100%;
+  }
+
+  .room-description h3{
+    font-family: 'lato',serif;
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+  .room-description p{
+    font-family: 'lato',serif;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #413939;
+  }
+/* room page ends */
+
+
