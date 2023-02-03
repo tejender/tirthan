@@ -63,7 +63,8 @@
       flex-direction: column;
     
     }
-   
+
+    
     
   
     .single-room img{
@@ -190,8 +191,29 @@
     }
     
 
-    
+
     /* room end */
+
+
+    /* booking mobile */
+
+    .booking-mobile{
+      width: 100%;
+      height: 100px;
+      position: fixed;
+      bottom:0;
+      right: 0;
+
+      background-color:white;
+      border-top: 1px solid rgb(245, 237, 237);
+
+      z-index: 20;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 30px;
+    }
+    /* booking mobile ends */
   
 }/* media query ended */
   

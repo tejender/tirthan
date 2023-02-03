@@ -344,6 +344,7 @@ footer{
 
 
 
+
 .btn {
   box-sizing: border-box;  
   display: flex;
@@ -355,7 +356,7 @@ footer{
   background-color: transparent;
   border: 2px solid red;
   border-radius: 0.6em;
-  color: red;
+ 
   cursor: pointer;
   display: flex;
   align-self: center;
@@ -389,6 +390,12 @@ footer{
 .know-more:hover {
   background-position: 0;
   color: black;
+}
+
+.book-now{
+  background-color: #f00f0f;
+  color: white;
+
 }
 
 .room-title > h3{

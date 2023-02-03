@@ -45,6 +45,10 @@
     font-size: 1rem;
     font-weight: 200;
   }
+  .room-wrapper{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   /* swiper */
   .swiper {
     width: 100%;
