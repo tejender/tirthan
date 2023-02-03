@@ -182,7 +182,8 @@ background: linear-gradient(71deg, rgba(2,0,36,1) 0%, rgba(101,249,0,1) 0%, rgba
   /* align-items: center; */
   width: 45%;
   gap: 5%;
-
+  text-transform: capitalize;
+  
 
 }
 
@@ -599,6 +600,27 @@ footer{
     font-weight: 200;
     letter-spacing: 1px;
 
+  }
+
+  .tag{
+    font-style: normal;
+    
+    margin-left: 5px;
+    padding: 4px 5px;
+    border-radius: 3px;
+    border: none;
+  }
+  .green{
+    background-color: rgb(28, 189, 28);
+  }
+  .blue{
+    background-color: rgb(57, 180, 236);
+  }
+  .yellow{
+    background-color: rgb(208, 243, 7);
+  }
+  .red{
+    background-color: rgb(241, 77, 1);
   }
   .room-wrapper{
     padding-left: 10px;
