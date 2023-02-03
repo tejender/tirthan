@@ -12,3 +12,8 @@ def Rooms(request):
     active_page='rooms';
     context={'active_page':active_page}
     return render(request,'base/rooms.html',context)
+
+def JaloriComplex(request):
+    active_page='rooms';
+    context={'active_page':active_page}
+    return render(request,'base/rooms/jalori-complex.html',context)

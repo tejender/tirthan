@@ -5,6 +5,9 @@
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -12,6 +15,14 @@ body {
   line-height: 1.6;
 }
 
+hr{
+  height: 1px;
+  width: 100%;
+  background-color:  rgb(221,221,221);
+  
+  margin-top: 20px;
+  border: none;
+}
 .container{
   background-color: #F5F6F8;
 }
