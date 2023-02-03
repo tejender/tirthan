@@ -499,10 +499,12 @@ footer{
 
   .sleeping-arrangements{
     height: auto;    
-    width: 100%;    
+    width: 100%;  
+    margin-top: 10px;
+    margin-bottom: 10px;  
   }
 
-  .sleeping-arrangements h4,.room-view h4{
+  .sleeping-arrangements h4,.room-view h4, .complex-detail h4 , .room-features h4{
     font-size: 1.3rem;
     font-family: 'lato',serif;
     text-transform: capitalize;
@@ -517,7 +519,7 @@ footer{
 
   .sleeping-arrangements__images img, .room-view__images img{
     width: 32%;
-    border-radius:2px;
+    border-radius:10px;
 
   }
 
@@ -537,6 +539,28 @@ footer{
     display: flex;
     gap: 10px;
     margin-top: 10px;
+  }
+
+
+  .room-features{
+    margin-top: 20px;
+  }
+  .amenity-wrapper{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 15px; */
+    align-items: center;
+    
+  }
+
+  .amenity-wrapper .amenity{
+    display: flex;
+    align-items: center;
+    flex: 1 0 calc(33.33% - 20px);
+    margin: 10px;
+    
   }
   
 /* room page ends */

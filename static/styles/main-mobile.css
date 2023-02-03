@@ -164,6 +164,10 @@
       /* background-color: aqua; */
     }
 
+    .booking-form{
+      display: none;
+    }
+
     .room-description h3,.booking-form__title{
       font-family: 'lato',serif;
       /* background-color: red; */
@@ -171,6 +175,20 @@
       font-size: 1.8rem;
       letter-spacing: 3px;
     }
+    
+    .quick-enquiry{
+      display: none;
+    }
+
+    .amenity-wrapper .amenity{
+      flex: 1 0 calc(50% - 20px);
+      /* background-color: blue; */
+      justify-content: left;
+      
+      /* margin: 10px */
+      /* background-color: red; */
+    }
+    
     /* room end */
   
 }/* media query ended */
