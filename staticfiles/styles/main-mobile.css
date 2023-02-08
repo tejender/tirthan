@@ -1,219 +1,79 @@
-
 @media (max-width:500px){
 
-    .section__title{
-        letter-spacing: 0px;
-    }
-    .more-description{
-      display: none;
-    }
+  .section-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .section-content.intro-images img:nth-child(2),
+.section-content.intro-images img:nth-child(3) {
   
-    
-    .info__section{
-      display: flex;
-      flex-direction: column;
-    }
-    .info__section__content{
-    
-      width: 100%;
-      /* background: red; */
-    }
-    
-    .info__section__img{
-      width: 100%;
-    }
+  display: none;
+}
+.section-wrapper.offer-section{
+  height: 250px;
+  gap: 10px;
+ 
+}
+
+.section-wrapper.offer-section p{
+  font-size: 40px;
+  color: #ffffff;
+  font-family: 'Caveat', cursive;
+
+  line-height: 2rem;
+  font-weight: 300;
+  width: 100%;
+  margin: 0 auto;
   
-    .info__section__img img{
-      width: 100%;
-    }
+}
+
+.section-wrapper.section-restaurant{
+  display: flex;  
+  width: 95%;
+  flex-direction: column;
+  /* background-color: blue; */
+  /* justify-content: center; */
+  align-items: center;
+  gap: 5px;
+}
+
+
+.section-wrapper.section-restaurant .--middle{
+  width: 100%;
+  /* background-color: red; */
+  margin-left: 0px;
+  padding: 10px 0;
+  gap: 0px;
+  height: auto;
   
-    .accomodation__section__rooms{
-      margin-top: 10px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 20px;
-    }
-  
-    .room-container{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    .single-room{   
-  
-      position: relative;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-      gap: 10px;
-      /* background-color: #e3f1ee; */
-      border-radius: 6px;
-     
-    }
-    .room__info{
-      width: 96%;
-      display: flex;
-      flex-direction: column;
-    
-    }
+}
+.section-wrapper.section-restaurant .--right{
+  width: 100%;
+  margin-left: 0px;
+}
 
-    
-    
-  
-    .single-room img{
-      width: 100%;
-      border-radius: 6px;
-     
-    }
-  
-    .amenitiies__section{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
-    }
-    .amenity{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 90%;
-      gap: 5%;
-    }
-  
-    .amenitiies__section .amenity__icon{
-      display: flex;
-      justify-content: center;
-      font-size: 60px;
-      color:#849fc5;
-      width: 25%;
-      /* background-color: red; */
-    }
-  
-      .amenity__info{
-        width: 70%;
-        /* background-color: aqua; */
-      }
-      .amenity__info p{
-        font-size: 10px;
-      }
-    .amenity__info .title{
-      font-size: 20px;
-      color:#0E2A4E;
-      font-family :"GlacialIndifference-Regular";
-      line-height:21px;
-      vertical-align:baseline;
-      letter-spacing: 2px;
-      word-spacing:0px;
-      margin:0px 0px 15px;
-      padding:0px;
-     
-      
-    }
-    .amenity__info p{
-      font-family:  "GlacialIndifference-Regular";
-      color:#8A8B96;
-      font-size:16px;
-      line-height:30px;
-    vertical-align:baseline;
-    letter-spacing:normal;
-    word-spacing:0px;
-    margin:0px 0px 15px;
-    padding:0px;
-  
-    }
-    .footer__social{
-       
-        background-color: #344157;
-    }
+.section-wrapper.section-restaurant .--left{
+  width: 100%;
+  margin-left: 0px;
+}
 
-    .section__restaurant .section__restaurant__tagline{
-
-        font-weight:600;
-        font-size: 20px;
-        width: 100%;
-        padding-left: 10px;
-    }
-
-
-    /* rooms */
-    .image-grid-container{
-    
-      margin-bottom: 20px;
-   } 
-    .rooms-detail-container{
-      display: flex;
-      flex-direction: column;
-      gap: 50px;
-     
-    }
-
-    .rooms-detail-container__left{
-      width: 100%;
-      /* background-color: aqua; */
-    }
-  
-    .rooms-detail-container__right{
-      width: 100%;
-      /* background-color: aqua; */
-    }
-
-    .booking-form{
-      display: none;
-    }
-
-    .room-description h3,.booking-form__title{
-      font-family: 'lato',serif;
-      /* background-color: red; */
-      
-      font-size: 1.8rem;
-      letter-spacing: 3px;
-    }
-    
-    .quick-enquiry{
-      display: none;
-    }
-
-    .amenity-wrapper .amenity{
-      flex: 1 0 calc(50% - 20px);
-      /* background-color: blue; */
-      justify-content: left;
-      
-      /* margin: 10px */
-      /* background-color: red; */
-    }
-    
-
-
-    /* room end */
-
-
-    /* booking mobile */
-
-    .booking-mobile{
-      width: 100%;
-      height: 80px;
-      position: fixed;
-      bottom:0;
-      right: 0;
-
-      background-color:white;
-      border-top: 1px solid rgb(245, 237, 237);
-
-      z-index: 20;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 30px;
-    }
-    /* booking mobile ends */
-  
-}/* media query ended */
-  
+.amenitiies-wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #F6F6FA;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+.amenity{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+}

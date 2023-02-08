@@ -6,17 +6,9 @@
 {% endblock css %}
 
 {% block content %}
-
-
 <div class="slider">
     <div class="slide current">
-      {% comment %} <div class="content">
-        <h1>Slide One</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit hic
-          maxime, voluptatibus labore doloremque vero!
-        </p>
-      </div> {% endcomment %}
+      
     </div>
     <div class="slide">
      
@@ -37,355 +29,191 @@
   <div class="buttons">
     <button id="prev"><i class="fas fa-arrow-left"></i></button>
     <button id="next"><i class="fas fa-arrow-right"></i></button>
-  </div>   
+  </div>  
+</div> 
+
+
+
+<div class="sections-container">
+     <div class="section-wrapper about-section">
+        <div class="section-title">
+          <h2>The resort</h2>
+        </div>
+        <div class="section-intro">
+          <p class="section-intro__content">
+            Nestled in the tranquil Tirthan Valley, our resort 
+            offers the perfect blend of natural beauty and luxury. 
+            Surrounded by lush green forests and situated alongside t
+            he sparkling Tirthan River, our resort is the ultimate destination for those 
+            looking to escape the hustle and bustle of city life.
+          </p>
+        </div>
+        <div class="section-content intro-images">
+          <img src="https://nuss.uxper.co/lodge-forest/wp-content/uploads/sites/8/2021/10/170008040_480761530003548_8307462484940783079_n-683x1024.jpeg" alt="">
+              <img class="mt-40" src="https://nuss.uxper.co/lodge-forest/wp-content/uploads/sites/8/2021/10/240571621_573493954063638_5125155245197282551_n-1024x1024.jpeg" alt="">
+              <img src="https://nuss.uxper.co/lodge-forest/wp-content/uploads/sites/8/2021/10/170008040_480761530003548_8307462484940783079_n-683x1024.jpeg" alt="">
+        </div>
+    </div>
+
+
+    <div class="section-wrapper accomodation-section">
+      <div class="section-title">
+        <h2>Accomodation</h2>
+      </div>
+      <div class="section-intro">
+        <p class="section-intro__content">
+          Our hotel offers 13 beautifully appointed rooms with awe-inspiring 
+          views of the mountains and The Tirthan River. Each room is designed 
+          to cater to the unique needs of our guests, whether you're a solo traveler, 
+          couple, family, or large group. Our rooms are equipped with all the necessary
+           amenities to make your stay as comfortable as possible..
+        </p>
+      </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://cdn.pixabay.com/photo/2021/03/09/03/27/home-6080810_960_720.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="https://cdn.pixabay.com/photo/2021/02/07/20/09/dining-5992540_960_720.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="https://cdn.pixabay.com/photo/2016/06/16/01/27/lavender-field-1460332_960_720.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="https://cdn.pixabay.com/photo/2017/02/07/20/54/the-little-cottage-2047036_960_720.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="https://cdn.pixabay.com/photo/2022/12/19/21/17/cozy-7666575_960_720.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+          <img src="https://cdn.pixabay.com/photo/2016/12/19/11/43/natural-heritage-1918017_960_720.jpg" alt="">  
+          </div>
+          
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-btn">
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>  
+  </div>
+
+  <div class="section-wrapper offer-section">
+    <div class="section-title">
+      <h2>offers</h2>
+    </div>
+    <div class="section-intro">
+      <p class="section-intro__content">
+        Benefit from a 10% discount, 
+        making your reservations with 
+        a minimum of 3 days in advance
+      </p>
+    </div>
+  </div>
+
+  <div class="section-wrapper section-restaurant">
+    <div class="--left">
+        <img src="https://nuss.uxper.co/luxury-resort/wp-content/uploads/sites/6/2021/07/photo-1531088009183-5ff5b7c95f91-1.jpeg" alt="">
+    </div>
+    <div class="--middle">
+      <div class="section-titlee">
+        <h2>Eat & Drink</h2>
+      </div>
+      <div class="section-introa">
+        <p class="section-intro__contenti">
+          Experience The Taste Of Authentic And Traditional
+           Cuisine In Every Bite At Our Cozy, Family-Friendly Restaurant.
+        </p>
+      </div>
+    </div>
+    <div class="--right">
+      <img src="https://nuss.uxper.co/luxury-resort/wp-content/uploads/sites/6/2021/07/photo-1578884144755-6f1907e23058-1.jpeg" alt="">
+    </div>
+  </div>
+
+  <div class="section-wrapper amenity-section">
+    <div class="section-title">
+      <h2>Amenities</h2>
+    </div>
+    <div class="section-intro">
+      <p class="section-intro__content">
+        Our rooms and suites are tastefully designed with comfort and 
+        relaxation in mind, featuring large windows that offer stunning 
+        views of the valley.
+        Each room is equipped with modern amenities
+      </p>
+    </div>
+    <div class="section-content">
+      <div class="amenitiies-wrapper" >
+        <div class="amenity">
+            <div class="amenity__icon">
+                <i class="fa fa-light fa-wifi"></i>
+            </div>
+            <div class="amenity__info">
+               <p class="title">
+                   Free wifi
+               </p> 
+               <p>
+                Free high-speed WiFi is available  guests 
+                to stay connected during their stay.
+               </p>
+            </div>
+        </div>
+        <div class="amenity">
+            <div class="amenity__icon">
+                <i class="fa fa-light fa-car"></i>
+            </div>
+            <div class="amenity__info">
+               <p class="title">
+                   Private Parking
+               </p> 
+               <p>
+                Private parking is available on-site for guests' convenience.
+               </p>
+            </div>
+        </div>
+        <div class="amenity">
+            <div class="amenity__icon">
+                <i class="fa fa-solid fa-utensils"></i>
+            </div>
+            <div class="amenity__info">
+               <p class="title">
+                Restaurant
+               </p> 
+               <p>
+                Our restaurant serves delicious meals and a variety of cuisines for guests to enjoy.
+               </p>
+            </div>
+        </div>
+        <div class="amenity">
+            <div class="amenity__icon">
+                <i class="fa fa-regular fa-eye"></i>
+            </div>
+            <div class="amenity__info">
+               <p class="title">
+                  River / Mountain view
+               </p> 
+               <p>
+                Relax and enjoy the stunning river and mountain views from the comfort of your room.
+               </p>
+            </div>
+        </div>
+        {% comment %} 
+        <i class="fa fa-regular fa-car"></i>
+        <i class=" fa fa-solid fa-fork-knife"></i>
+        <i class="fa fa-regular fa-tv"></i> {% endcomment %}
+    </div>
+      </div>
+</div>
+ 
   
-  <section>
-    <div class="section-cointainer" data-aos="fade-up" data-aos-duration="2000">
-
-    
-    <div class="section__title">
-        <h2>
-            About our resort
-        </h2>
-</div>
-    <div class="info__section" >
-        
-        <div class="info__section__content content letter-1">
-            <p>
-                Nestled in the tranquil Tirthan Valley, our resort offers the 
-                perfect blend of natural beauty and luxury. Surrounded by lush
-                 green forests and situated alongside the sparkling Tirthan River, 
-                 our resort is the ultimate destination for those looking to escape 
-                 the hustle and bustle of city life.<br>                 
-
-                    
-            </p>
-            <p class="more-description">
-                Our rooms and suites are tastefully designed with comfort
-                and relaxation in mind, featuring large windows that offer 
-                stunning views of the valley. <br>
-
-                Each room is equipped with modern amenities.
-                Our resort also features a variety of dining options, 
-                including a fine-dining restaurant that serves delicious local and 
-                international cuisine. Our open-air terrace restaurant offers the perfect 
-                place to enjoy a meal while taking in the stunning views of the Tirthan Valley.
-                
-                <br>
-                Come and experience the beauty and tranquility of the Tirthan 
-                Valley at our resort. We look forward to welcoming you soon! 
-            </p>
-           
-        </div>
-        <div class="info__section__img">
-            <img src="{% static 'images/cottage.jpeg' %}" alt="image">
-            
-        </div>
-        {% comment %} <div class="btn know-more">
-            Know more
-        </div> {% endcomment %}
-    </div>
 </div>
 
-<div class="section-cointainer" data-aos="fade-up"
-data-aos-duration="2000">
 
 
-
-    <div class="section__title">
-        <h2>
-            accomodation
-        </h2>
-    </div>
-    <div class="accomodation__section" >
-        <div class="accomodation__section__content content">
-            <p class="lato line-3 letter-1">
-                Our hotel offers 13 beautifully appointed rooms with awe-inspiring 
-                views of the mountains and The Tirthan River. Each room is designed to cater to 
-                the unique needs of our guests, whether you're a solo traveler, couple, 
-                family, or large group. Our rooms are equipped with all the necessary 
-                amenities to make your stay as comfortable as possible.
-            </p>
-        </div>
-        <div class="accomodation__section__rooms">
-            <div class="room-container">
-
-            
-            <div class="room-title">
-                <h3>
-                    The Jalori Complex
-                </h3>
-            </div>
-            
-                 
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2016/10/14/19/21/canyon-1740973__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/01/mountains-736886__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2017/02/14/03/03/ama-dablam-2064522__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2014/09/07/22/17/forest-438432__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2017/05/09/03/46/alberta-2297204__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2014/02/28/16/45/mountains-276995__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2016/09/19/22/46/lake-1681485__340.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
-                  </div>               
-               
-                <div class="room-info-container">
-
-                    <div class="room__info">
-                        <p class="room__info__summary">1 Room | 2 Guests  | 1 Bathroom </p>
-                        <p class="room__info__price"> &#8377; 1500 / Night </p>
-                        <p class="room__info__complex-detail">Complex's Capacity - 3 rooms | 8 persons <br></p>
-                        <p class="room__info__description">
-                            This complex is designed for individual 
-                            travelers / couples who are looking for a comfortable and convenient place to stay.                         
-                            
-                        </p>          
-                                                 
-                    </div>
-                    <a href="{%url 'jalori-complex'%}">
-                    <div class="btn know-more">
-                        Read  More
-                      </div> 
-                    </a>
-                </div>           
-            </div>
-
-            <div class="room-container">
-
-           
-            <div class="room-title">
-                <h3>
-                    The Raghupur Complex
-                </h3>
-            </div>
-            
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2016/10/14/19/21/canyon-1740973__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/01/mountains-736886__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2017/02/14/03/03/ama-dablam-2064522__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2014/09/07/22/17/forest-438432__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2017/05/09/03/46/alberta-2297204__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2014/02/28/16/45/mountains-276995__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2016/09/19/22/46/lake-1681485__340.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
-                  </div>  
-              
-                <div class="room-info-container">
-
-                    <div class="room__info">
-                        <p class="room__info__summary">1 Room | 2 Guests  | 1 Bathroom </p>
-                        <p class="room__info__price"> &#8377; 1500 / Night </p>
-                        <p class="room__info__complex-detail">Complex's Capacity - 3 rooms | 8 persons <br></p>
-                        <p class="room__info__description">
-                            This complex is designed for individual 
-                            travelers / couples who are looking for a comfortable and convenient place to stay.                         
-                            
-                        </p>          
-                                                 
-                    </div>
-                    <div class="btn know-more">
-                        Read  More
-                    </div> 
-                </div>
-            
-        </div>
-        <div class="room-container">
-        
-            <div class="room-title">
-                <h3>
-                    The Tirthan Complex
-                </h3>
-            </div>
-            
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2016/10/14/19/21/canyon-1740973__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/01/mountains-736886__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2017/02/14/03/03/ama-dablam-2064522__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2014/09/07/22/17/forest-438432__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2017/05/09/03/46/alberta-2297204__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2014/02/28/16/45/mountains-276995__340.jpg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="https://cdn.pixabay.com/photo/2016/09/19/22/46/lake-1681485__340.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
-                  </div>  
-                
-                <div class="room-info-container">
-
-                    <div class="room__info">
-                        <p class="room__info__summary">1 Room | 2 Guests  | 1 Bathroom </p>
-                        <p class="room__info__price"> &#8377; 1500 / Night </p>
-                        <p class="room__info__complex-detail">Complex's Capacity - 3 rooms | 8 persons <br></p>
-                        <p class="room__info__description">
-                            This complex is designed for individual 
-                            travelers / couples who are looking for a comfortable and convenient place to stay.                         
-                            
-                        </p>          
-                                                 
-                    </div>
-                    <div class="btn know-more">
-                        Read  More
-                    </div> 
-                </div>
-            
-        </div>          
-           
-        </div>
-    </div>
-    <div class="section-container">
-        <div class="section__restaurant">
-            <p class="section__restaurant__tagline">
-                Experience the taste of authentic and traditional cuisine in every bite at our cozy, 
-                family-friendly restaurant.
-            </p>
-        </div>
-    </div>
-    <div class="section-container" data-aos="fade-up"
-    data-aos-duration="2000">
-    
-
-        <div class="section__title">
-            <h2>
-                Amenities
-            </h2>
-        </div>
-        <div class="amenitiies__section" >
-            <div class="amenity">
-                <div class="amenity__icon">
-                    <i class="fa fa-light fa-wifi"></i>
-                </div>
-                <div class="amenity__info">
-                   <p class="title">
-                       Free wifi
-                   </p> 
-                   <p>
-                    Free high-speed WiFi is available  guests 
-                    to stay connected during their stay.
-                   </p>
-                </div>
-            </div>
-            <div class="amenity">
-                <div class="amenity__icon">
-                    <i class="fa fa-light fa-car"></i>
-                </div>
-                <div class="amenity__info">
-                   <p class="title">
-                       Private Parking
-                   </p> 
-                   <p>
-                    Private parking is available on-site for guests' convenience.
-                   </p>
-                </div>
-            </div>
-            <div class="amenity">
-                <div class="amenity__icon">
-                    <i class="fa fa-solid fa-utensils"></i>
-                </div>
-                <div class="amenity__info">
-                   <p class="title">
-                    Restaurant
-                   </p> 
-                   <p>
-                    Our restaurant serves delicious meals and a variety of cuisines for guests to enjoy.
-                   </p>
-                </div>
-            </div>
-            <div class="amenity">
-                <div class="amenity__icon">
-                    <i class="fa fa-regular fa-eye"></i>
-                </div>
-                <div class="amenity__info">
-                   <p class="title">
-                      River / Mountain view
-                   </p> 
-                   <p>
-                    Relax and enjoy the stunning river and mountain views from the comfort of your room.
-                   </p>
-                </div>
-            </div>
-            {% comment %} 
-            <i class="fa fa-regular fa-car"></i>
-            <i class=" fa fa-solid fa-fork-knife"></i>
-            <i class="fa fa-regular fa-tv"></i> {% endcomment %}
-        </div>
-
-    </div>
-</div>
-
-  </section>
-  
 {% endblock content %}
 
 {% block scripts %}
 <script src="{% static 'js/home-swiper.js' %}"></script>
-{% endblock scripts %}
+ {% endblock scripts %} 
