@@ -29,8 +29,9 @@
   letter-spacing: normal;
   text-align: center;
   line-height: 1.4rem;
-
+ /* background-color: blue; */
 }
+
 .sections-container{
  height: auto;
  /* background-color: yellow; */
@@ -91,8 +92,7 @@
 
 
 .section-wrapper.section-restaurant{
-  display: flex;
-  
+  display: flex;  
   width: 80%;
   flex-direction: row;
   /* background-color: blue; */
@@ -121,7 +121,8 @@
 .--left img, .--right img{
   width: 100%;
   height: 100%;
-  background-size: cover;
+  object-fit: cover;
+  object-position: center;
   
 }
 
@@ -130,7 +131,7 @@
   margin-left: -80px;
   background-color: #F6F6FA;
   height: 500px;
-  padding: 0 80px;
+  padding: 0 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -140,10 +141,10 @@
 }
 
 .--middle p{
-  font-size: 2rem;
-  word-spacing: 10px;
+  font-size: 1.5rem;
+  word-spacing: 15px;
   /* font-weight: 900; */
-  line-height: 3rem;
+  line-height: 2.5rem;
   color: rgb(104, 102, 102);
 
 }

@@ -12,6 +12,10 @@
   
   display: none;
 }
+
+.section-wrapper{
+  gap: 10px;
+}
 .section-wrapper.offer-section{
   height: 250px;
   gap: 10px;
@@ -75,5 +79,22 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+}
+
+.section-intro{
+  width:100%;
+  
+}
+
+
+.--left,.--right{
+  height: 200px;
+
+}
+
+.--middle p{
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-top: 10px;
 }
 }
