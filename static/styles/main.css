@@ -10,10 +10,29 @@
   margin: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+  color: inherit;
+}
 
 /* utilities */
   .mt-40{
     margin-top: 40px;
+  }
+
+  .btn{
+    width: auto;
+    height: 40px;
+    /* background-color: red; */
+    padding: 5px 10px;
+    border: 1px solid #a15b4c;
+    color:#a15b4c ;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 17px;
   }
 /* utilities ends */
 
@@ -145,16 +164,18 @@ background: linear-gradient(130deg, rgba(2,0,36,1) 0%, rgba(243,249,0,1) 0%, rgb
 }
 
 .--middle{
+  display: flex;
   width: 60%;
   margin-left: -80px;
   background-color: #F6F6FA;
   height: 500px;
   padding: 0 40px;
-  display: flex;
   flex-direction: column;
   align-items: center;
+ 
   justify-content: center;
-  gap: 20px;
+  
+
 
 }
 
@@ -165,6 +186,11 @@ background: linear-gradient(130deg, rgba(2,0,36,1) 0%, rgba(243,249,0,1) 0%, rgb
   line-height: 2.5rem;
   color: rgb(104, 102, 102);
 
+}
+.--middle .btn{
+  margin-top: 10px;
+  width: 80% ;
+  margin: 5px auto 0;
 }
 
 
