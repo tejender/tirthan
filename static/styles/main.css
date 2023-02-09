@@ -19,6 +19,13 @@
 
 
 
+.section-title{
+  color: #B95C47;
+  text-transform: uppercase;
+  font-size: .9rem;
+  letter-spacing: 2px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 /* home page */
 
 .section-intro{
