@@ -7,6 +7,11 @@
     justify-content: center;
   }
 
+  .section-intro__content{
+      font-size: .9rem;
+      line-height: 1.5rem;
+  }
+
   .section-content.intro-images img:nth-child(2),
 .section-content.intro-images img:nth-child(3) {
   
@@ -14,7 +19,7 @@
 }
 
 .section-wrapper{
-  gap: 10px;
+  gap: 20px;
 }
 .section-wrapper.offer-section{
   height: 250px;
