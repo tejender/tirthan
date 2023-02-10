@@ -4,317 +4,199 @@
 {% comment %} <link rel="stylesheet" href="{% static 'styles/rooms.css' %}"> {% endcomment %}
 <link rel="stylesheet" href="{% static 'styles/booking_form.css' %}">
 {% endblock css %}
+
+{%block content%}
+<div class="rooms-hero">
     
-{% block content %}
+    <img src="https://cdn.pixabay.com/photo/2016/11/14/02/28/apartment-1822409_960_720.jpg" alt="">
+</div>
 
-<!-- about -->
-
-<ul class="tabs">
-    <li data-tab-target="#home" class="active tab">Jalori Complex</li>
-    <li data-tab-target="#pricing" class="tab">Rahupur Complex</li>
-    <li data-tab-target="#about" class="tab">tirthan complex</li>
-  </ul>
-  
-  <div class="tab-content">
-    <div id="home" data-tab-content class="active">
-        <div class="image-grid-container">
-            <div class="item item-1">
-                <img src="https://cdn.pixabay.com/photo/2018/01/21/01/19/tree-3095683__340.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="https://cdn.pixabay.com/photo/2016/11/14/03/26/cliff-1822484__340.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="https://cdn.pixabay.com/photo/2018/08/19/10/16/nature-3616194__340.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="https://cdn.pixabay.com/photo/2015/01/28/23/35/hills-615429__340.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="https://cdn.pixabay.com/photo/2016/10/22/17/46/mountains-1761292__340.jpg" alt="">
-            </div>
+<div class="sections-container">
+    <div class="section-wrapper rooms-section">
+        <div class="section-title">
+            <h2>All rooms</h2>
+          </div>
+          <div class="section-intro">
+            <p class="section-intro__content">
+              Nestled in the tranquil Tirthan Valley, our resort 
+              offers the perfect blend of natural beauty and luxury. 
+              Surrounded by lush green forests and situated alongside t
+              he sparkling Tirthan River, our resort is the ultimate destination for those 
+              looking to escape the hustle and bustle of city life.
+            </p>
           </div>
 
-          <div class="rooms-detail-container">
-            <div class="rooms-detail-container__left">
-                <div class="room-description">
-                    <h3>
-                        About Jalori Complex
-                    </h3>
-                    <p>
-                        Welcome to Jalori Complex, the perfect retreat for 
-                        those looking for a scenic and budget-friendly stay. 
-                        Our complex offers three comfortable single rooms with
-                         private bathrooms, each providing breathtaking views of 
-                         The Tirthan River. Ideal for couples, solo travelers, 
-                         or small groups of up to three people, our rooms offer the perfect 
-                         combination of comfort and affordability.<br>
-                          {% comment %} Book your stay at Jalori
-                          Complex and experience the beauty of nature 
-                        while enjoying the convenience of your own private space.<br>
-                        At Jalori Complex, we strive to provide our guests with 
-                        a memorable and relaxed experience. Whether you're here to 
-                        explore the natural wonders of the surrounding area or simply 
-                        looking for a peaceful escape, our rooms have everything you need.<br>
-                         Each room is thoughtfully designed with the guest in mind and comes
-                          equipped with all the modern amenities you would expect. Enjoy the 
-                          tranquil sounds of The Tirthan River from your private room or step
-                           outside to soak in the breathtaking views. We promise that 
-                        your stay at Jalori Complex will be an experience to remember. {% endcomment %}
-                    </p>
-                   
+          <div class="section-content rooms-row">
+
+              <div class="room-details">
+                  <div class="room-details__image">
+                      <img src="https://cdn.pixabay.com/photo/2021/03/08/13/18/bed-6079088__340.jpg" alt="">
+                    </div>
+                    <div class="room-details__content">
+                        <b>Family Suite</b>
+                        
+                        <i>
+                            <span class="material-symbols-rounded">
+                            single_bed
+                            </span> 2 bed | 
+                            <span class="material-symbols-rounded">
+                                shower
+                            </span>2 Bathrooms
+                            </i>
+                        <i>
+                            <span class="material-symbols-rounded">
+                                currency_rupee
+                                </span>5000 / Night
+                        </i>
+                        <p>
+                            Our Family Suite offers beautifull view of the Tirthan 
+                            River and is the perfect choice for families.
+                        </p>
+                    </div>
                 </div>
-    
-                <div class="sleeping-arrangements">
-                    <h4>
-                        Where you will sleep ?
-                    </h4>
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide">
-                            <img src="https://cdn.pixabay.com/photo/2014/08/11/21/39/wall-416060__340.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="https://cdn.pixabay.com/photo/2014/12/27/14/37/living-room-581073__340.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="https://cdn.pixabay.com/photo/2016/11/30/08/48/bedroom-1872196__340.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="https://cdn.pixabay.com/photo/2017/03/22/17/39/kitchen-2165756__340.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="https://cdn.pixabay.com/photo/2017/03/19/01/43/living-room-2155376__340.jpg " alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="https://cdn.pixabay.com/photo/2016/06/29/04/39/bride-1486004__340.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="https://cdn.pixabay.com/photo/2014/08/11/21/40/bedroom-416062__340.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="https://cdn.pixabay.com/photo/2016/06/29/04/39/bride-1486004__340.jpg" alt="">
-                          </div>
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-pagination"></div>
+
+                <div class="room-details">
+                    <div class="room-details__image">
+                        <img src="https://cdn.pixabay.com/photo/2021/03/08/13/18/bed-6079088__340.jpg" alt="">
                       </div>
-                </div>
+                      <div class="room-details__content">
+                        <b>Family Suite</b>
+                        
+                        <i>
+                            <span class="material-symbols-rounded">
+                            single_bed
+                            </span> 2 bed | 
+                            <span class="material-symbols-rounded">
+                                shower
+                            </span>2 Bathrooms
+                            </i>
+                        <i>
+                            <span class="material-symbols-rounded">
+                                currency_rupee
+                                </span>5000 / Night
+                        </i>
+                        <p>
+                            Our Family Suite offers beautifull view of the Tirthan 
+                            River and is the perfect choice for families.
+                        </p>
+                    </div>
+                  </div>
 
-                <div class="room-view">
-                    <h4>
-                        View from room ?
-                    </h4>
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide">
-                            <img src="https://cdn.pixabay.com/photo/2014/08/11/21/39/wall-416060__340.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="https://cdn.pixabay.com/photo/2014/12/27/14/37/living-room-581073__340.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="https://cdn.pixabay.com/photo/2016/11/30/08/48/bedroom-1872196__340.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="https://cdn.pixabay.com/photo/2017/03/22/17/39/kitchen-2165756__340.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="https://cdn.pixabay.com/photo/2017/03/19/01/43/living-room-2155376__340.jpg " alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="https://cdn.pixabay.com/photo/2016/06/29/04/39/bride-1486004__340.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="https://cdn.pixabay.com/photo/2014/08/11/21/40/bedroom-416062__340.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="https://cdn.pixabay.com/photo/2016/06/29/04/39/bride-1486004__340.jpg" alt="">
-                          </div>
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-pagination"></div>
+                  <div class="room-details">
+                    <div class="room-details__image">
+                        <img src="https://cdn.pixabay.com/photo/2021/03/08/13/18/bed-6079088__340.jpg" alt="">
                       </div>
-                </div>
-
-                
-
-                <div class="room-features">
-                    <h4>Room Features</h4>
-                    <div class="amenity-wrapper">                   
-                    <div class="amenity">
-                        <i class=" fa fa-solid fa-water"></i> 
+                      <div class="room-details__content">
+                        <b>Family Suite</b>
+                        
+                        <i>
+                            <span class="material-symbols-rounded">
+                            single_bed
+                            </span> 2 bed | 
+                            <span class="material-symbols-rounded">
+                                shower
+                            </span>2 Bathrooms
+                            </i>
+                        <i>
+                            <span class="material-symbols-rounded">
+                                currency_rupee
+                                </span>5000 / Night
+                        </i>
                         <p>
-                            river view    
-                        </p> 
+                            Our Family Suite offers beautifull view of the Tirthan 
+                            River and is the perfect choice for families.
+                        </p>
                     </div>
-                    <div class="amenity">
-                        <i class="fa fa-solid fa-house"></i>
-                        <p>
-                            Villagee view  
-                        </p> 
-                    </div>
-                    <div class="amenity">
-                        <i class="fa-solid fa-sink"></i>
-                        <p>
-                            private bathroom 
-                        </p> 
-                    </div>
-
-                    <div class="amenity">
-                        <i class="fa fa-solid fa-door-open"></i>
-                        <p>
-                            balcony / patio 
-                        </p> 
-                    </div>
-                    <div class="amenity">
-                        <i class="fa fa-solid fa-wifi"></i>
-                        <p>
-                            wifi
-                        </p> 
-                    </div>
-                    <div class="amenity">
-                        <i class="fa-solid fa-droplet"></i>
-                        <p>
-                           Hot / Cold Water
-                        </p> 
-                    </div>
-
-                    <div class="amenity">
-                        <i class="fa-solid fa-fire"></i>
-                        <p>
-                           room heater
-                        </p> 
-                    </div>
-                    <div class="amenity">
-                        <i class="fa-solid fa-fire"></i>
-                        <p>
-                           room heater
-                        </p> 
-                    </div>
-                    <div class="amenity">
-                        <i class="fa-solid fa-fire"></i>
-                        <p>
-                           room heater
-                        </p> 
-                    </div>
-                </div>
-                </div>
-
+                  </div>
             </div>
-            <div class="rooms-detail-container__right">
-                <div class="booking-form">
-                    {% include './booking_form.html' %}
-                </div>
 
-                <div class="quick-enquiry">
-                    <h3>
-                        Quic Enuqiry
-                    </h3>
-                    <p>
-                        Contact us on following numbers / social handles for fast response.
-                        we usually respond within 5 minutes.
-                    </p>
+            <div class="section-content rooms-row">
 
-                    <div class="quick-enquiry__addresses">
-                        <div class="whatsapp-address">
-
-                            <i class=" fa fa-brands fa-whatsapp"></i>
-                            <i class="description"> +91 94599 95498</i>
+                <div class="room-details">
+                    <div class="room-details__image">
+                        <img src="https://cdn.pixabay.com/photo/2021/03/08/13/18/bed-6079088__340.jpg" alt="">
+                      </div>
+                      <div class="room-details__content">
+                        <b>Family Suite</b>
+                        
+                        <i>
+                            <span class="material-symbols-rounded">
+                            single_bed
+                            </span> 2 bed | 
+                            <span class="material-symbols-rounded">
+                                shower
+                            </span>2 Bathrooms
+                            </i>
+                        <i>
+                            <span class="material-symbols-rounded">
+                                currency_rupee
+                                </span>5000 / Night
+                        </i>
+                        <p>
+                            Our Family Suite offers beautifull view of the Tirthan 
+                            River and is the perfect choice for families.
+                        </p>
+                    </div>
+                  </div>
+  
+                  <div class="room-details">
+                      <div class="room-details__image">
+                          <img src="https://cdn.pixabay.com/photo/2021/03/08/13/18/bed-6079088__340.jpg" alt="">
                         </div>
-                        <div class="contact-address">
-
-                            <i class="fa fa-solid fa-mobile-screen-button"></i>
-                            <i class="description"> +91 94599 95498</i>
+                        <div class="room-details__content">
+                            <b>Family Suite</b>
+                            
+                            <i>
+                                <span class="material-symbols-rounded">
+                                single_bed
+                                </span> 2 bed | 
+                                <span class="material-symbols-rounded">
+                                    shower
+                                </span>2 Bathrooms
+                                </i>
+                            <i>
+                                <span class="material-symbols-rounded">
+                                    currency_rupee
+                                    </span>5000 / Night
+                            </i>
+                            <p>
+                                Our Family Suite offers beautifull view of the Tirthan 
+                                River and is the perfect choice for families.
+                            </p>
                         </div>
                     </div>
-
-                    <div class="quick-enquiry__addresses">
-
-                        <div class="instagram-address">
-                            <i class="fa fa-brands fa-instagram"></i>
-                            <i class="description"> Instagram</i>
+  
+                    <div class="room-details">
+                      <div class="room-details__image">
+                          <img src="https://cdn.pixabay.com/photo/2021/03/08/13/18/bed-6079088__340.jpg" alt="">
                         </div>
-                        <div class="google-business-address">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <i class="description"> Google Business</i>
+                        <div class="room-details__content">
+                            <b>Family Suite</b>
+                            
+                            <i>
+                                <span class="material-symbols-rounded">
+                                single_bed
+                                </span> 2 bed | 
+                                <span class="material-symbols-rounded">
+                                    shower
+                                </span>2 Bathrooms
+                                </i>
+                            <i>
+                                <span class="material-symbols-rounded">
+                                    currency_rupee
+                                    </span>5000 / Night
+                            </i>
+                            <p>
+                                Our Family Suite offers beautifull view of the Tirthan 
+                                River and is the perfect choice for families.
+                            </p>
                         </div>
-
                     </div>
-                </div>
+              </div>
 
-
-                
-            </div>
-          </div>
+          
     </div>
-    <div id="pricing" data-tab-content>
-        <div class="image-grid-container">
-            <div class="item item-1">
-                <img src="https://cdn.pixabay.com/photo/2016/11/14/03/26/cliff-1822484__340.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="https://cdn.pixabay.com/photo/2018/01/21/01/19/tree-3095683__340.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="https://cdn.pixabay.com/photo/2016/11/14/03/26/cliff-1822484__340.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="https://cdn.pixabay.com/photo/2018/08/19/10/16/nature-3616194__340.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="https://cdn.pixabay.com/photo/2015/01/28/23/35/hills-615429__340.jpg" alt="">
-            </div>
-            
-          </div>
-    </div>
-    <div id="about" data-tab-content>
-        <div class="image-grid-container">
-            <div class="item  item-1">
-                <img src="https://cdn.pixabay.com/photo/2016/10/22/17/46/mountains-1761292__340.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="https://cdn.pixabay.com/photo/2018/01/21/01/19/tree-3095683__340.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="https://cdn.pixabay.com/photo/2016/11/14/03/26/cliff-1822484__340.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="https://cdn.pixabay.com/photo/2018/08/19/10/16/nature-3616194__340.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="https://cdn.pixabay.com/photo/2015/01/28/23/35/hills-615429__340.jpg" alt="">
-            </div>
-            
-          </div>
-    </div>
-   
-  
-  </div>
-  
-        
-       
-        
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+</div>
 {% endblock content %}
 
 {% block scripts %}

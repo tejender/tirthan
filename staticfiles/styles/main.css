@@ -1,8 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans');
-
-  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans:wght@200&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&display=swap');
 :root{
   --tclr-intro:#5A5A5A;
 }
@@ -15,6 +11,15 @@ a{
   color: inherit;
 }
 
+.room-title h2 {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  color: inherit;
+  text-align: inherit;
+}
 /* utilities */
   .mt-40{
     margin-top: 40px;
@@ -260,6 +265,189 @@ padding:0px;
 }
 /* home page end */
 
+/* roooms page */
+
+.rooms-hero{
+  width: 100%;
+  height: 450px;
+}
+
+.rooms-hero img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.section-wrapper.rooms-section{
+  margin-bottom: 40px;
+}
+.section-content.rooms-row{
+  display: flex;
+  width: 100%; 
+  gap: 4%;
+  /* background-color: red; */
+  justify-content: center;
+
+
+}
+
+.room-details{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  /* background-color: blue; */
+}
+
+.room-details img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.room-details__content{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.room-details__content i{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+/* rooms page ends */
+
+
+/* single room page */
+.rooms-hero.single-room{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+ 
+  margin: 10px auto ;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.section-wrapper.single-room-details{
+  height: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  /* background-color: red; */
+  align-items: flex-start;
+  margin-bottom: 20px;
+  gap: 20px;
+  position: relative;
+  justify-content: space-between;
+}
+.section-wrapper.single-room-details i{
+  font-style: normal;
+}
+.single-room-details__left{
+  width: 60%;
+  height: 100%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.single-room-details__right{
+position: sticky;
+  width: 30%;
+  height: 300px;
+  background-color: yellow;
+  top: 20px;
+  right: 0;
+  
+  
+}
+
+.room-info{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ 
+}
+
+.room-info p{
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: inherit;
+  color: rgba(79, 80, 82, 0.9);
+}
+.room-info i{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.amenities-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.amenities-wrapper .title{
+  font-size: 1rem;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  /* gap: 30px; */
+}
+
+.row.amenity{
+  display: flex;
+  width: 100%;
+  gap: 10%;
+  /* background-color: yellow; */
+}
+.row.amenity i{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: normal;
+  /* background-color: red; */
+  min-width: 40%;
+  color: rgba(79, 80, 82, 0.9);
+}
+
+.room-title{
+  font-family: 'Cormorant Garamond', serif;
+ 
+  color: #1a1a1a;
+  font-size: 42px;
+
+}
+
+/* single-room page ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -352,5 +540,15 @@ footer{
 
 /* footer ends */
 
+
+
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz'48'
+}
 
 

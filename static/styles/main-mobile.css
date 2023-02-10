@@ -1,5 +1,7 @@
 @media (max-width:500px){
 
+  /* home page */
+
   .section-content{
     display: flex;
     flex-direction: column;
@@ -108,4 +110,48 @@
   word-spacing: normal;
   line-height: 1.4rem;
 }
+
+/* home page ends */
+
+
+/* rooms page */
+.rooms-hero.single-room{
+  width: 100%;
+  margin-top: 0px;
+  border-radius: 0px;
 }
+.section-content.rooms-row{
+  flex-direction: column;
+  gap: 20px;
+}
+
+.room-details{
+
+  width: 100%;
+
+}
+/* rooms page ends */
+
+/* single rooms */
+.section-wrapper.single-room-details{
+  display: flex;
+  flex-direction: column;
+  
+}
+.single-room-details__left{
+  width: 100%;
+}
+.single-room-details__right{
+  display: none;
+}
+
+.row.amenity{
+  display: flex;
+  width: 100%;
+  gap: 10%;
+  /* background-color: yellow; */
+  justify-content: start;
+}
+/* single room ends */
+}
+
