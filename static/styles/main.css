@@ -485,7 +485,50 @@ letter-spacing: 2px;
 
 
 
+/* contact-us */
+  .contact-hero{
+    height: 500px;
+    width: 100%;
+    background-color: red;
+  }
 
+  .contact-hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .section-wrapper.contact-us{
+    /* background-color: red; */
+   width: 100%;
+  }
+
+  .contact-details-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: blue; */
+  }
+  .contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact-details.social p{
+    display: flex;
+
+    gap: 20px;
+    justify-content: center;
+
+  }
+
+  .contact-details.social p img{
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+  }
+/* contact-us ends */
 
 
 

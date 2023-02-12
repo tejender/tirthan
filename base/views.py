@@ -20,3 +20,8 @@ def JaloriComplex(request):
 
 def FamilySuite(request):        
         return render(request,'base/rooms/family-suite.html')
+
+def ContactUs(request):
+    active_page='contact'
+    context={'active_page':active_page}
+    return render(request,'base/contact-us.html',context)
