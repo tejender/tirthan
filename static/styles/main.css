@@ -503,11 +503,30 @@ letter-spacing: 2px;
    width: 100%;
   }
 
+  .section-details-map{
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    width: 80%;
+    align-items: center;
+  }
+
+  .map{
+    height: 300px;
+    width: 50%;
+  }
+  .map iframe{
+    height: 100%;
+    width:100%;
+  }
   .contact-details-wrapper{
     display: flex;
+    
     flex-direction: column;
     gap: 20px;
+    width: 50%;
     /* background-color: blue; */
+    /* align-items: start; */
   }
   .contact-details{
     display: flex;
@@ -519,7 +538,7 @@ letter-spacing: 2px;
     display: flex;
 
     gap: 20px;
-    justify-content: center;
+    /* justify-content: center; */
 
   }
 
