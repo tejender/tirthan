@@ -162,9 +162,9 @@
   bottom: 0;
   display: flex;
   justify-content: space-between;
-  height: 60px;
+  height: 75px;
   width: 100%;
-  background-color: rgb(241, 231, 231);
+  background-color: rgb(255, 255, 255);
   z-index: 5;
   left: 0;
   align-items: center;
@@ -173,8 +173,8 @@
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .booking-mobile img{
-  height: 28px;
-  width: 28px;
+  height: 32px;
+  width: 32px;
 }
 /* single room ends */
 }
