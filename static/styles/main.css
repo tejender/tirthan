@@ -568,9 +568,9 @@ letter-spacing: 2px;
     width: 60%;
   }
   .faq-details p{
-      width: 50%;
-      font-size: 1.1rem;
-      line-height: 1.3.4rem;
+      width: 100%;
+      font-size: 1.3rem;
+      line-height: 1.7rem;
   }
 
   .section-wrapper.contact-us .section-intro .section-intro__content {

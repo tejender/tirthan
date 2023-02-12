@@ -221,13 +221,18 @@
  .faq-details{
   width: 100%;
  }
- .faq-details p{
-  width: 100%;
- }
-/* contact-us page ends */
-
-
-
+ .faq-details p{  
+    color: var(--tclr-intro);
+    font-size: 17px;
+    /* letter-spacing: normal; */
+       line-height: 1.4rem;
+   /* background-color: blue; */
+  }
+  /* contact-us page ends */
 }
+
+
+
+
 
 
