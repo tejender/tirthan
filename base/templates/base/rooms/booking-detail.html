@@ -31,7 +31,7 @@
         
     </div>
     
-    <div class="btn btn--booking">
+    <div class="btn btn--booking trigger-desktop">
         Book now
     </div>
 </div>
@@ -42,7 +42,15 @@
         <img src="{%static 'images/icons/colored/icon-google-map.svg'%}" alt="">
         <img src="{%static 'images/icons/colored/icon-whatsapp.svg'%}" alt="">
         <img src="{%static 'images/icons/colored/icon-instagram.svg'%}" alt="">
-        <div class="btn btn--booking">
+        <div class="btn btn--booking trigger-mobile">
             Book now
       </div>
   </div>
+
+  <div class="modal">
+    <div class="modal-content">
+        <span class="close-button">×</span>
+        <h1>Book your stay</h1>
+        {% include '../booking_form.html' %}
+    </div>
+</div>

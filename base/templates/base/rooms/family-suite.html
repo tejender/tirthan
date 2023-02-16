@@ -3,8 +3,9 @@
 {% block css %}
 {% comment %} <link rel="stylesheet" href="{% static 'styles/rooms.css' %}"> {% endcomment %}
 <link rel="stylesheet" href="{% static 'styles/single-room-swiper.css' %}">
+<link rel="stylesheet" href="{% static 'styles/modal.css' %}">
+<link rel="stylesheet" href="{%static 'styles/booking_form.css'%}">
 {% endblock css %}
-    
 {% block content %}
 <div class="rooms-hero single-room">
     <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
@@ -183,4 +184,5 @@
 
 {% block scripts %}
 <script src="{% static 'js/single-room-swiper.js' %}"></script>
+<script src="{%static 'js/modal.js' %}"></script>
 {% endblock scripts %}
